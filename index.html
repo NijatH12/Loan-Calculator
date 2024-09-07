@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <section id="credit">
+      <div class="container">
+        <div class="top_header">
+          <h1>Loan Calculator</h1>
+        </div>
+
+        <div class="input_main">
+          <form action="">
+            <div class="toplamInput">
+              <div class="amount div">
+                <label for="">Loan Amount</label>
+                <label for="" class="amountText">400</label>
+                <input type="range" class="amountInput" min="400" max="5000" />
+              </div>
+
+              <div class="duration div">
+                <label for="">Loan Term</label>
+                <label for="" class="durationText">400</label>
+                <input type="range" class="durationInput" min="6" max="24" />
+              </div>
+              <div class="percentage div">
+                <label for="">Interest Rate</label>
+                <label for="" class="percentageText">400</label>
+                <input type="range" class="percentageInput" min="9" max="26" />
+              </div>
+            </div>
+
+            <div class="result">
+              <h3>Payment Every Month</h3>
+              <p class="resultText"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </head>
+  <body>
+    <script src="/main.js"></script>
+  </body>
+</html>
